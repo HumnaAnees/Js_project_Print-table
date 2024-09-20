@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Printer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <label for="NumToPrint">Which Table do you want to print:</label>
+    <input id="NumToPrint" type="number">
+    <br>
+    
+    <label for="minLength">Number to start table:</label>
+    <input id="minLength" type="number">
+    <br>
+    
+    <label for="maxLength">Number to end table:</label>
+    <input id="maxLength" type="number">
+    <br>
+    
+    <button onclick="printTable()">Print Table</button>
+    <button onclick="refresh()">Refresh</button>
+    
+    <p id="displayTable"></p>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
